@@ -1,0 +1,158 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #79dbf97c; /* Bright yellow background */
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* src/App.css */
+
+.Navbar {
+  background-color: #79dbf97c; /* Green navbar with some transparency */
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;  /* Set left to 0 to span from the left corner */
+  right: 0; /* Set right to 0 to span to the right corner */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  z-index: 1000; /* Ensure the navbar is above other elements */
+}
+
+
+.Navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+.Navbar a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 70%;
+  margin-top: 60px;
+}
+
+.App-header {
+  background-color: #f19c72; /* Green header */
+  padding: 30px;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.section {
+  background-color: #ffffff; /* White section background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+h2 {
+  color: #f19c72; /* Green heading */
+}
+
+.Project {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Project h3 {
+  color: #f19c72;
+}
+
+.Contact {
+  margin-top: 20px;
+}
+
+.Contact p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.Contact a {
+  color: #2196f3; /* Bright blue link color */
+  text-decoration: none;
+}
+
+.Contact a:hover {
+  text-decoration: underline;
+}
+
+.Skills {
+  background-color: white; /* Bright orange background */
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.Skills h2 {
+  color: #f19c72;
+}
+.section:hover {
+  background-color: #79dbf97c; /* Change color on hover */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.Project:hover {
+  background-color: #a4cad67c;
+  transition: background-color 0.3s ease;
+}
+
+.Contact:hover {
+  background-color: #79dbf97c;
+  transition: background-color 0.3s ease;
+}
+
+.Skills:hover {
+  background-color: #79dbf97c;
+  transition: background-color 0.3s ease;
+}
+.App-header {
+  background-color: #f19c72; /* Green header */
+  padding: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  flex-grow: 1; /* Allow h1 to grow and take available space */
+}
+img {
+  width: 100px; /* Set the desired width of the image */
+  height: auto; /* Maintain aspect ratio */
+  position: flex;
+  top: 0px; /* Adjust the top position to align with the header */
+  right: 0px; /* Adjust the right position to align with the header */
+  border-radius: 50%; /* Make the image round */
+}
